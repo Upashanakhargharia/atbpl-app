@@ -1292,8 +1292,11 @@ body {
   }
 
   .affiliated-title {
-    font-size: 18px;
+    min-width: 280px;
     padding: 12px 20px;
-    min-width: auto;
-  }
+    font-size: 18px;
+}
+.logo {
+    height: 35px;
+}
 }
