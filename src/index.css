@@ -1057,6 +1057,9 @@ body {
    ============================================================ */
 
 @media (max-width: 768px) {
+  .small-title {
+    font-size: 26px;
+}
   /* Navbar mobile */
   .nav-right {
     display: none;
@@ -1140,11 +1143,11 @@ body {
 
   /* About mobile */
   .about-league {
-    padding: 50px 16px;
+    padding: 50px 20px;
   }
 
   .about-content h2 {
-    font-size: 32px;
+    font-size: 26px;
   }
 
   .about-content h3 {
