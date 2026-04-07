@@ -1680,6 +1680,7 @@ body {
 @media (max-width: 991px) {
   .core-team-section {
     padding: 56px 18px;
+    margin:0;
   }
 
   .core-team-layout {
