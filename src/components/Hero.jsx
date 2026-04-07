@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="hero">
+    <section className="hero home">
       <div className="overlay"></div>
       <div className="container hero-content">
         <h1>Andhra <br /> TENNIS BALL <br /> Premier League</h1>
