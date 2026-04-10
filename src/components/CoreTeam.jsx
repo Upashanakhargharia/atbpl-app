@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 export default function CoreTeam() {
+  const [showAllMembers, setShowAllMembers] = useState(false);
+
   const teamMembers = [
     {
       name: "WCM Kiran Paul",
@@ -24,7 +28,55 @@ export default function CoreTeam() {
       desc: "Chairman, miracle engineering group of companies & Miracle Foundation",
       image: "/images/img-10.png",
     },
+
+    // Repeated placeholders for now, total 11 members
+    {
+      name: "WCM Kiran Paul",
+      role: "Chairman, Atbpl",
+      desc: "Pastor & President mission of War Of Carmel Ministries",
+      image: "/images/img-7.png",
+    },
+    {
+      name: "M Praneeth",
+      role: "CEO, atbpl",
+      desc: "Ex - Ranji Trophy Player",
+      image: "/images/img-8.png",
+    },
+    {
+      name: "K V Subbi Reddy",
+      role: "Director, Atbpl",
+      desc: "Chairman, Sri bhaskar group of schools",
+      image: "/images/img-9.png",
+    },
+    {
+      name: "Dr. David Raju Chitturi",
+      role: "Director, atbpl",
+      desc: "Chairman, miracle engineering group of companies & Miracle Foundation",
+      image: "/images/img-10.png",
+    },
+    {
+      name: "WCM Kiran Paul",
+      role: "Chairman, Atbpl",
+      desc: "Pastor & President mission of War Of Carmel Ministries",
+      image: "/images/img-7.png",
+    },
+    {
+      name: "M Praneeth",
+      role: "CEO, atbpl",
+      desc: "Ex - Ranji Trophy Player",
+      image: "/images/img-8.png",
+    },
+    {
+      name: "K V Subbi Reddy",
+      role: "Director, Atbpl",
+      desc: "Chairman, Sri bhaskar group of schools",
+      image: "/images/img-9.png",
+    },
   ];
+
+  const visibleMembers = showAllMembers
+    ? teamMembers
+    : teamMembers.slice(0, 4);
 
   return (
     <section className="core-team-section">
@@ -54,7 +106,7 @@ export default function CoreTeam() {
           </div>
 
           <div className="core-team-right">
-            {teamMembers.map((member, index) => (
+            {visibleMembers.map((member, index) => (
               <article className="team-member-card" key={index}>
                 <div className="team-member-image">
                   <img src={member.image} alt={member.name} />
@@ -67,6 +119,23 @@ export default function CoreTeam() {
                 </div>
               </article>
             ))}
+
+            {teamMembers.length > 4 && (
+              <button
+                type="button"
+                className="team-members-toggle"
+                onClick={() => setShowAllMembers(!showAllMembers)}
+                aria-label={
+                  showAllMembers
+                    ? "Show fewer team members"
+                    : "Show all team members"
+                }
+              >
+                <span className={`team-arrow ${showAllMembers ? "open" : ""}`}>
+                  &#8964;
+                </span>
+              </button>
+            )}
           </div>
         </div>
       </div>

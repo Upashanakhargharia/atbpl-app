@@ -764,7 +764,7 @@ body {
    background: url('/images/aboout-home.jpg') center / cover no-repeat;
 }
 .page-hero {
-  height: 70vh;
+  height: 60vh;
   min-height: 320px;
   position: relative;
   color: #fff;
@@ -1549,7 +1549,34 @@ body {
     height: 35px;
 }
 }
+.core-team-right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
 
+.team-members-toggle {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.team-arrow {
+  display: inline-block;
+  font-size: 42px;
+  line-height: 1;
+  color: #111;
+  transition: transform 0.3s ease;
+}
+
+.team-arrow.open {
+  transform: rotate(180deg);
+}
 .core-team-section {
     padding: 172px 20px 100px;
     background: #ededed;
