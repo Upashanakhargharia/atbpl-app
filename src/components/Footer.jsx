@@ -6,10 +6,10 @@ const footerLinks = [
   { label: 'App Icon', path: '/icon' },
   { label: 'Contact Us', path: '/contact' },
   { label: 'Franchise', path: '/franchise' },
-  { label: 'Terms And Conditions', path: '/terms' },
+  { label: 'Terms And Conditions', path: '/terms-and-conditions' },
   { label: 'Rulebook', path: '/rule' },
   { label: 'Registration/Rules', path: '/rule' },
-  { label: 'Privacy/Policy', path: '/policy' },
+  { label: 'Privacy/Policy', path: '/privacy-policy' },
 ]
 
 export default function Footer() {

@@ -22,7 +22,7 @@ export default function Navbar() {
         <nav className={`nav-center ${menuOpen ? 'open' : ''}`}>
           <Link to="/" className={location.pathname === '/' ? 'active' : ''} onClick={closeMenu}>Home</Link>
           <Link to="/about" className={location.pathname === '/about' ? 'active' : ''} onClick={closeMenu}>About Us</Link>
-          <Link to="/" onClick={closeMenu}>About ATBPL</Link>
+          <Link to="/about-atbpl" onClick={closeMenu}>About ATBPL</Link>
           <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''} onClick={closeMenu}>Contact Us</Link>
         </nav>
 
