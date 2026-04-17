@@ -52,7 +52,7 @@ export default function ContactPage() {
               <div className="info-cards">
                 <div className="info-card">
                   <span className="info-icon">
-                    <img src="/images/phone-icon.png" alt="Phone icon" />
+                    <img src="/images/call.jpg" alt="Phone icon" />
                   </span>
                   <div>
                     <strong>Phone Number</strong>
@@ -62,7 +62,7 @@ export default function ContactPage() {
 
                 <div className="info-card">
                   <span className="info-icon">
-                    <img src="/images/email-icon.png" alt="Email icon" />
+                    <img src="/images/message.jpg" alt="Email icon" />
                   </span>
                   <div>
                     <strong>Email Address</strong>
