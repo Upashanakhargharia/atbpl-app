@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const BroadcastCTA = ({ sectionTitle, learnMoreUrl = "#" }) => {
   return (
        <section className="broadcast">
@@ -6,7 +7,9 @@ const BroadcastCTA = ({ sectionTitle, learnMoreUrl = "#" }) => {
         <div className="broadcast-cta">
           <div className="cta-left">
             <h3>Watch Live on<br />Broadcasting Partner</h3>
-            <a href="/about-atbpl" className="learn-more-btn">LEARN MORE</a>
+            <Link to="/about-atbpl" className="learn-more-btn">
+  LEARN MORE
+</Link>
           </div>
         </div>
 

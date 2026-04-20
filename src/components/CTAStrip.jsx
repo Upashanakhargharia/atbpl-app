@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function CTAStrip() {
   return (
     <section className="big-league-section">
@@ -10,7 +11,9 @@ export default function CTAStrip() {
             Register now to showcase your talent before your dream turns into another
             opportunity lost to the next bigger cricket hero.
           </p>
-          <a href="/about-atbpl" className="learn-btn">LEARN MORE</a>
+        <Link to="/about-atbpl" className="learn-btn">
+  LEARN MORE
+</Link>
         </div>
       </div>
     </section>

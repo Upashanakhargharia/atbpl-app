@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const teams = [
   { name: 'Palnadu Singam', logo: '/images/singham.png' },
   { name: "Bhimavaram Raja's", logo: '/images/raja.png' },
@@ -15,10 +17,11 @@ export default function Teams() {
           <div>
             <h2>Our<br />Teams</h2>
           </div>
-          <a href="/about-atbpl" className="view-all-btn">
-            View All Teams
-            <img src="/images/arrow.png" alt="arrow" />
-          </a>
+          <Link to="/about-atbpl" className="view-all-btn">
+  View All Teams
+  <img src="/images/arrow.png" alt="arrow" />
+</Link>
+
         </div>
 
         {/* Team cards grid */}
