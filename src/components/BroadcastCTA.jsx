@@ -6,7 +6,7 @@ const BroadcastCTA = ({ sectionTitle, learnMoreUrl = "#" }) => {
         <div className="broadcast-cta">
           <div className="cta-left">
             <h3>Watch Live on<br />Broadcasting Partner</h3>
-            <a href="#" className="learn-more-btn">LEARN MORE</a>
+            <a href="/about-atbpl" className="learn-more-btn">LEARN MORE</a>
           </div>
         </div>
 

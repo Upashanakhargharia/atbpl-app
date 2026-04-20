@@ -10,7 +10,7 @@ export default function CTAStrip() {
             Register now to showcase your talent before your dream turns into another
             opportunity lost to the next bigger cricket hero.
           </p>
-          <a href="#" className="learn-btn">LEARN MORE</a>
+          <a href="/about-atbpl" className="learn-btn">LEARN MORE</a>
         </div>
       </div>
     </section>

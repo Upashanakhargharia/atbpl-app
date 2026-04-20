@@ -15,7 +15,7 @@ export default function Teams() {
           <div>
             <h2>Our<br />Teams</h2>
           </div>
-          <a href="#" className="view-all-btn">
+          <a href="/about-atbpl" className="view-all-btn">
             View All Teams
             <img src="/images/arrow.png" alt="arrow" />
           </a>
