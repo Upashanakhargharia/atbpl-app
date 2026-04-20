@@ -8,8 +8,8 @@ const BroadcastCTA = ({ sectionTitle, learnMoreUrl = "#" }) => {
           <div className="cta-left">
             <h3>Watch Live on<br />Broadcasting Partner</h3>
             <Link to="/about-atbpl" className="learn-more-btn">
-  LEARN MORE
-</Link>
+            LEARN MORE
+            </Link>
           </div>
         </div>
 
