@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-const BroadcastCTA = ({ sectionTitle, learnMoreUrl = "#" }) => {
+const BroadcastCTA = ({ sectionTitle, learnMoreUrl = "/about-atbpl" }) => {
   return (
        <section className="broadcast">
       <div className="container">
@@ -7,7 +7,7 @@ const BroadcastCTA = ({ sectionTitle, learnMoreUrl = "#" }) => {
         <div className="broadcast-cta">
           <div className="cta-left">
             <h3>Watch Live on<br />Broadcasting Partner</h3>
-            <Link to="/about-atbpl" className="learn-more-btn">
+            <Link to={learnMoreUrl} className="learn-more-btn">
             LEARN MORE
             </Link>
           </div>
