@@ -8,7 +8,7 @@ const footerLinks = [
   // { label: 'Franchise', path: '/franchise' },
   { label: 'Terms And Conditions', path: '/terms-and-conditions' },
   // { label: 'Rulebook', path: '/rule' },
-  { label: 'Registration', path: '/rule' },
+  // { label: 'Registration', path: '/rule' },
   { label: 'Privacy Policy', path: '/privacy-policy' },
 ]
 

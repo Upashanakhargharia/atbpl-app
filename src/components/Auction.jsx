@@ -36,7 +36,7 @@ export default function Auction() {
 designed for all skill levels, offering a structured format, competitive matches, and
 opportunities to showcase your talent on a bigger stage.
             </p>
-            <a href="#" className="contact-btn">
+            <a href="/contact" className="contact-btn">
               Contact Now
               <img src="/images/arrow.png" alt="arrow" />
             </a>
