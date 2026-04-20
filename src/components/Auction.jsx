@@ -1,3 +1,4 @@
+ import { Link } from "react-router-dom";
 const rewards = [
   {
     amount: '₹ 25,000/-',
@@ -36,10 +37,12 @@ export default function Auction() {
 designed for all skill levels, offering a structured format, competitive matches, and
 opportunities to showcase your talent on a bigger stage.
             </p>
-            <a href="/contact" className="contact-btn">
-              Contact Now
-              <img src="/images/arrow.png" alt="arrow" />
-            </a>
+           
+
+<Link to="/contact" className="contact-btn">
+  Contact Now
+  <img src="/images/arrow.png" alt="arrow" />
+</Link>
           </div>
         </div>
 
