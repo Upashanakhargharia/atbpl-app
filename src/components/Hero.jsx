@@ -18,10 +18,10 @@ export default function Hero() {
          part of a professionally organized tournament.
         </p>
 
-        <a href="/contact" className="register-btn">
+        {/* <a href="/contact" className="register-btn">
           <span className="arrow">→</span>
           <span>Register Now</span>
-        </a>
+        </a> */}
       </div>
     </section>
   )
