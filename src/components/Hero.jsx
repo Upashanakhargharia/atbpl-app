@@ -13,12 +13,12 @@ export default function Hero() {
         </div>
 
         <p className="text-hero">
-          Lorem Ipsum is simply dummy text of the<br />
-          printing and typesetting industry. Lorem Ipsum has been the<br />
-          industry's standard dummy text ever since the 1500s.
+         Step into Andhra Pradesh’s premier tennis ball cricket league and showcas<br/>
+         your talent on a competitive stage. Compete, gain recognition, and be <br />
+         part of a professionally organized tournament.
         </p>
 
-        <a href="#" className="register-btn">
+        <a href="/contact" className="register-btn">
           <span className="arrow">→</span>
           <span>Register Now</span>
         </a>

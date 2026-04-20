@@ -56,7 +56,7 @@ export default function ContactPage() {
                   </span>
                   <div>
                     <strong>Phone Number</strong>
-                    <p>+1 (800) 123-4567</p>
+                    <p>7901 233 535</p>
                   </div>
                 </div>
 
@@ -66,7 +66,7 @@ export default function ContactPage() {
                   </span>
                   <div>
                     <strong>Email Address</strong>
-                    <p>hello@adeluxpadel.com</p>
+                    <p>info@atbpl.in</p>
                   </div>
                 </div>
               </div>

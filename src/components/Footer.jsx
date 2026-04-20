@@ -1,15 +1,15 @@
 import { Link, useLocation } from 'react-router-dom'
 
 const footerLinks = [
-  { label: 'Registration', path: '/registration' },
-  { label: 'About/FAQ', path: '/about' },
-  { label: 'App Icon', path: '/icon' },
+  // { label: 'Registration', path: '/registration' },
+  { label: 'About Us', path: '/about' },
+  // { label: 'App Icon', path: '/icon' },
   { label: 'Contact Us', path: '/contact' },
-  { label: 'Franchise', path: '/franchise' },
+  // { label: 'Franchise', path: '/franchise' },
   { label: 'Terms And Conditions', path: '/terms-and-conditions' },
-  { label: 'Rulebook', path: '/rule' },
-  { label: 'Registration/Rules', path: '/rule' },
-  { label: 'Privacy/Policy', path: '/privacy-policy' },
+  // { label: 'Rulebook', path: '/rule' },
+  { label: 'Registration', path: '/rule' },
+  { label: 'Privacy Policy', path: '/privacy-policy' },
 ]
 
 export default function Footer() {

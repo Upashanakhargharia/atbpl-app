@@ -2,18 +2,17 @@ const rewards = [
   {
     amount: '₹ 25,000/-',
     category: 'A Category Price',
-    desc: 'Our academy has successfully completed several one-day leagues with over 100 registered and active tournaments.',
+    desc: 'Top-tier players competing at the highest level, offering elite performance, strong match impact, and maximum recognition in the league.',
   },
   {
     amount: '₹ 10,000/-',
     category: 'B Category Price',
-    desc: 'Our academy has successfully completed one-day leagues with over 100 registered and active tournaments.',
+    desc: 'Skilled players competing consistently, delivering solid performances, contributing to team success, and gaining recognition in the league',
   },
   {
     amount: '₹ 5,000/-',
     category: 'C Category Price',
-    desc: 'Our academy has successfully completed one-day leagues with over 100 registered and active tournaments.',
-  },
+    desc: 'Emerging players building their skills, gaining valuable match experience, contributing to team efforts, and growing within the league.'  },
 ]
 
 export default function Auction() {
@@ -33,8 +32,9 @@ export default function Auction() {
 
           <div className="auction-content">
             <p>
-              From beginners to future pros, our league is designed for every age and skill level.
-              Join our well-structured format and train under experienced coaches.
+              Be part of an exciting player auction and compete for attractive rewards. Our league is
+designed for all skill levels, offering a structured format, competitive matches, and
+opportunities to showcase your talent on a bigger stage.
             </p>
             <a href="#" className="contact-btn">
               Contact Now

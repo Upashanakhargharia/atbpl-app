@@ -28,7 +28,7 @@ export default function Navbar() {
 
         {/* Register button (desktop) */}
         <div className="nav-right">
-          <button className="btn-register">Register Now</button>
+          {/* <button className="btn-register">Register Now</button> */}
           <img src="/images/header-logos.svg" alt="Partner logo 1" />
         </div>
         
